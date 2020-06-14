@@ -75,6 +75,18 @@ class TuringParser < BabelBridge::Parser
 			to_s.to_i
 		end
 	end
+
+	rule :statement, "quit" do
+		def evaluate
+			exit!
+		end
+	end
+
+	rule :statement, "exit" do
+		def evaluate
+			exit!
+		end
+	end
 end
 
 BabelBridge::Shell.new(TuringParser.new).start
