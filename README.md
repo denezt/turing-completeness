@@ -7,6 +7,12 @@
 	<li>Python 3+</li>
 </ol>
 
+### What make a programming language for a Turing Complete Language?
+1. Basic Math Operations: Add, Subtracting, Multiplying and Division
+2. Conditional Logic: if, case, or when
+3. Looping: while, for, until, do
+4. Memory (Abitrarily Large: [...],[...]
+
 ### Testing for Turing Completeness
 
 ``` shell
